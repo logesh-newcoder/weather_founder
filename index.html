@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="top">
+            <h2>Weather Report</h2>
+            <form>
+                <input type="text" name="cityname" id="cityname" placeholder="Enter City Name">
+                <input type="submit" value="Get Data">
+            </form>
+        </div>
+        <div class="bottom">
+            <h2 class="city"></h2>
+            <h2 class="imgid"></h2>
+            <h2 class="climate"></h2>
+            <h2 class="temperature"></h2>
+            <div class="bottomsplit">
+                <h2>
+                    <img src="humidity.svg" alt="Humidity">
+                    <span class="moisture">Humidity</span>
+                </h2>
+                <h2>
+                    <img src="wind.svg" alt="Wind">
+                    <span class="wind">Wind</span>
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
